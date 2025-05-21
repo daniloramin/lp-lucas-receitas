@@ -1,21 +1,21 @@
 import "../categories.scss";
 import { NavLink } from "react-router";
 
-import cuidadoDeLaPielBackground from "../../../assets/images/categories-background/cuidado-de-la-piel.png";
+import tratamientosCapilares from "../../../assets/images/categories-background/tratamientos-capilares-background.png";
 
 import mounjaroNatural from "../../../assets/images/posts-background/mounjaro-natural-background.png";
 
-export const CuidadoDeLaPielLink = () => {
+export const TratamientosCapilaresLink = () => {
     return (
-        <NavLink to="/categorias/cuidado-de-la-piel" className="category-box">
-            <img src={cuidadoDeLaPielBackground} alt="" />
+        <NavLink to="/categorias/tratamientos-capilares" className="category-box">
+            <img src={tratamientosCapilares} alt="" />
 
-            <h2>Cuidado de la Piel</h2>
+            <h2>Tratamientos Capilares</h2>
         </NavLink>
     );
 };
 
-export const CuidadoDeLaPielPosts = () => {
+export const TratamientosCapilaresPosts = () => {
     return (
         <div id="category-posts">
             <NavLink to="/posts/mascarilla-facial-coreana" className="post-box">

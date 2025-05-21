@@ -4,6 +4,7 @@ import { NavLink } from "react-router";
 import adelgazamientoYBienestarBackground from "../../../assets/images/categories-background/adelgazamiento-y-bienestar.png";
 
 import mounjaroNatural from "../../../assets/images/posts-background/mounjaro-natural-background.png";
+import { PostLink } from "../components/PostLink";
 
 export const AdelgazamientoYBienestarLink = () => {
     return (
@@ -17,16 +18,21 @@ export const AdelgazamientoYBienestarLink = () => {
 
 export const AdelgazamientoYBienestarPosts = () => {
     return (
-        <div id="posts">
+        <div id="category-posts">
             <NavLink to="/posts/mounjaro-natural" className="post-box">
-                <img src={mounjaroNatural} alt="" />
+                <PostLink
+                    imgSrc={mounjaroNatural}
+                    title={"MOUNJARO NATURAL"}
+                    description={"PREPARA EN CASA LA RECETA QUE SE HIZO VIRAL EN TIK TOK"}
+                />
+            </NavLink>
 
-                <h2>MOUNJARO NATURAL: PREPARA EN CASA LA RECETA QUE SE HIZO VIRAL EN TIK TOK</h2>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo quisquam mollitia
-                    sequi?
-                </p>
+            <NavLink to="/posts/mounjaro-natural" className="post-box">
+                <PostLink
+                    imgSrc={mounjaroNatural}
+                    title={"MOUNJARO NATURAL"}
+                    description={"PREPARA EN CASA LA RECETA QUE SE HIZO VIRAL EN TIK TOK"}
+                />
             </NavLink>
         </div>
     );

@@ -1,8 +1,10 @@
 import { Header } from "../../components/Header";
 import { AdelgazamientoYBienestarLink } from "./AdelgazamientoYBienestar";
 import { CuidadoDeLaPielLink } from "./CuidadoDeLaPielBackground";
+import { SaludyVitalidadLink } from "./SaludyVitalidad";
 
 import "./style.scss";
+import { TratamientosCapilaresLink } from "./TratamientosCapilares";
 
 export const Categories = () => {
     return (
@@ -13,6 +15,10 @@ export const Categories = () => {
                 <AdelgazamientoYBienestarLink />
 
                 <CuidadoDeLaPielLink />
+
+                <SaludyVitalidadLink />
+
+                <TratamientosCapilaresLink />
             </div>
         </div>
     );

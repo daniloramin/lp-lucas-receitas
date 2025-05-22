@@ -1,0 +1,87 @@
+#post {
+    padding: 4rem 2rem;
+    --post-default-color: #131626;
+
+    .padding-left {
+        padding-left: 2.3rem;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 1rem;
+    }
+
+    h2 {
+        margin-block: 2.4rem;
+        font-size: 2.8rem;
+        font-weight: 700;
+        color: var(--medium-blue-text);
+    }
+
+    p {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        color: var(--post-default-color);
+        margin-bottom: 1.8rem;
+
+        strong {
+            font-weight: 600;
+            font-size: inherit;
+            line-height: inherit;
+        }
+    }
+
+    h3 {
+        margin-top: 3.2rem;
+        margin-bottom: 2.4rem;
+        font-size: 2.4rem;
+        font-weight: 700;
+        color: var(--medium-blue-text);
+    }
+
+    h4 {
+        color: var(--dark-blue-text);
+
+        font-size: 1.8rem;
+        font-weight: 600;
+
+        margin-top: 2.4rem;
+        margin-bottom: 1.8rem;
+    }
+
+    ul {
+        padding-left: 2rem;
+        margin-bottom: 2.4rem;
+
+        li {
+            font-size: 1.6rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+
+            &::marker {
+                color: var(--post-default-color);
+                font-size: 1rem;
+                font-weight: 600;
+            }
+        }
+
+        &.checked-list {
+            padding-left: 2rem;
+            list-style: none;
+
+            li {
+                position: relative;
+                &::before {
+                    content: "✅";
+                    position: absolute;
+                    top: -2px;
+                    right: calc(100% + 0.5rem);
+                    z-index: 1;
+
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}

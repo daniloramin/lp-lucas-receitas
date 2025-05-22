@@ -4,6 +4,7 @@ import { CuidadoDeLaPielLink } from "./CuidadoDeLaPielBackground";
 import { SaludyVitalidadLink } from "./SaludyVitalidad";
 
 import "./style.scss";
+import "./post.scss";
 import { TratamientosCapilaresLink } from "./TratamientosCapilares";
 
 export const Categories = () => {

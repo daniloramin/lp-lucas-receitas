@@ -10,7 +10,7 @@ export const PostLink = ({
     description: string;
 }) => {
     return (
-        <div className="post-link">
+        <div className="post-box-link">
             <img src={imgSrc} alt="" />
 
             <div className="content">

@@ -1,0 +1,14 @@
+.post-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    button {
+        border: none;
+        background-color: transparent;
+
+        padding: 0.5rem;
+
+        cursor: pointer;
+    }
+}

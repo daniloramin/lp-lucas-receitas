@@ -13,6 +13,11 @@ import { CuidadoDeLaPielPosts } from "./routes/Categories/CuidadoDeLaPielBackgro
 import { SaludyVitalidadPosts } from "./routes/Categories/SaludyVitalidad";
 import { TratamientosCapilaresPosts } from "./routes/Categories/TratamientosCapilares";
 import { MounjaroNatural } from "./routes/Categories/AdelgazamientoYBienestar/posts/MounjaroNatural";
+import { ProtocoloAntiEstrias } from "./routes/Categories/AdelgazamientoYBienestar/posts/ProtocoloAntiEstrias";
+import { CoctelParaVarices } from "./routes/Categories/AdelgazamientoYBienestar/posts/CoctelParaVarices";
+import { TonicoCapilar } from "./routes/Categories/TratamientosCapilares/posts/TonicoCapilar";
+import { BanoAdelgazante } from "./routes/Categories/AdelgazamientoYBienestar/posts/BanoAdelgazante";
+import { MascarillaFacialCoreana } from "./routes/Categories/CuidadoDeLaPielBackground/posts/MascarillaFacialCoreana";
 
 function App() {
     return (
@@ -42,6 +47,16 @@ function App() {
 
                     <Route path="posts">
                         <Route path="mounjaro-natural" element={<MounjaroNatural />} />
+                        <Route path="protocolo-anti-estrias" element={<ProtocoloAntiEstrias />} />
+                        <Route path="coctel-para-varices" element={<CoctelParaVarices />} />
+                        <Route path="bano-adelgazante" element={<BanoAdelgazante />} />
+
+                        <Route
+                            path="mascarilla-facial-coreana"
+                            element={<MascarillaFacialCoreana />}
+                        />
+
+                        <Route path="tonico-capilar" element={<TonicoCapilar />} />
                     </Route>
                 </Route>
 

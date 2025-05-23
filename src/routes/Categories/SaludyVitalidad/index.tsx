@@ -3,7 +3,8 @@ import { NavLink } from "react-router";
 
 import saludyVitalidad from "../../../assets/images/categories-background/salud-y-vitalidad-background.png";
 
-import mounjaroNatural from "../../../assets/images/posts-background/mounjaro-natural-background.png";
+import mounjaroNatural from "../../../assets/images/posts-background/mounjaro-natural.png";
+import { PostLink } from "../components/PostLink";
 
 export const SaludyVitalidadLink = () => {
     return (
@@ -17,15 +18,13 @@ export const SaludyVitalidadLink = () => {
 
 export const SaludyVitalidadPosts = () => {
     return (
-        <div id="category-posts">
+        <div className="category-posts">
             <NavLink to="/posts/mascarilla-facial-coreana" className="post-box">
-                <img src={mounjaroNatural} alt="" />
-
-                <h2>MASCARILLA FACIAL COREANA: LA RECETA DE LAS PIELES DE PORCELANA</h2>
-
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eos dolorem iusto!
-                </p>
+                <PostLink
+                    imgSrc={mounjaroNatural}
+                    title={"MASCARILLA FACIAL COREANA"}
+                    description={"LA RECETA DE LAS PIELES DE PORCELANA"}
+                />
             </NavLink>
         </div>
     );

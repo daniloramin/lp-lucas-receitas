@@ -1,4 +1,4 @@
-import mounjaroNatural from "../../../../assets/images/posts-background/mounjaro-natural-background.png";
+import mounjaroNatural from "../../../../assets/images/posts-background/mounjaro-natural.png";
 import { Header } from "../../../../components/Header";
 import { PostHeader } from "../../components/PostHeader";
 

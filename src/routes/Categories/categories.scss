@@ -31,8 +31,12 @@
     }
 }
 
-#category-posts {
-    padding: 4rem 2rem;
+.category-posts {
+    padding-inline: 2rem;
+
+    &:first-child {
+        margin-top: 4rem;
+    }
 
     .post-box {
     }

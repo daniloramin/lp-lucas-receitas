@@ -2,7 +2,7 @@ import { Header } from "../../components/Header";
 import "./style.scss";
 
 import banner1 from "../../assets/images/home-carousel-banner-1.png";
-import { NavLink, useLocation } from "react-router";
+import { NavLink } from "react-router";
 import { useEffect } from "react";
 
 // Add this declaration to inform TypeScript about the owlCarousel method
@@ -13,8 +13,6 @@ declare global {
 }
 
 export const Home = () => {
-    const location = useLocation();
-
     useEffect(() => {
         $(() => {
             $("#main-carousel").owlCarousel({

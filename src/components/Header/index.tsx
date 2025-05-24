@@ -1,4 +1,4 @@
-import type { ReactElement, ReactNode } from "react";
+import type { ReactNode } from "react";
 import "./style.scss";
 
 export const Header = ({ children }: { children: ReactNode }) => {

@@ -1,6 +1,10 @@
 import { Header } from "../../components/Header";
 import "./style.scss";
 
+import "../../libs/jquery/jquery.js";
+import "../../libs/owl-carousel/owl.carousel.min.js";
+import "../../libs/owl-carousel/assets/owl.carousel.min.css";
+
 import tonicoCapilar from "../../assets/images/posts-background/tonico-capilar.png";
 import laxanteCasero from "../../assets/images/posts-background/laxante-casero.png";
 import botoxCasero from "../../assets/images/posts-background/botox-casero.png";

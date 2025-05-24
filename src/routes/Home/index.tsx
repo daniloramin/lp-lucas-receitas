@@ -1,7 +1,16 @@
 import { Header } from "../../components/Header";
 import "./style.scss";
 
-import banner1 from "../../assets/images/home-carousel-banner-1.png";
+import tonicoCapilar from "../../assets/images/posts-background/tonico-capilar.png";
+import laxanteCasero from "../../assets/images/posts-background/laxante-casero.png";
+import botoxCasero from "../../assets/images/posts-background/botox-casero.png";
+import skinCareNocturno from "../../assets/images/posts-background/skin-care-nocturno.png";
+import protocoloAntiEstrias from "../../assets/images/posts-background/protocolo-anti-estrias.png";
+import diabetes from "../../assets/images/posts-background/diabetes.png";
+import mascarillaCaseraQuitaPuntosNegros from "../../assets/images/posts-background/mascarilla-casera-quita-puntos-negros.png";
+import mascarilaFacialCoreana from "../../assets/images/posts-background/mascarilla-facial-coreana.png";
+import adiosCanas from "../../assets/images/posts-background/adios-canas.png";
+
 import { NavLink } from "react-router";
 import { useEffect } from "react";
 
@@ -50,60 +59,45 @@ export const Home = () => {
             <main id="home-content">
                 <div id="main-carousel" className="owl-carousel">
                     <div className="item">
-                        <NavLink to="/posts/post-1">
+                        <NavLink to="/posts/tonico-capilar">
                             <div className="box-background-image">
-                                <img src={banner1} alt="" />
+                                <img src={tonicoCapilar} alt="" />
                             </div>
 
                             <div className="box-content">
                                 <h2>
-                                    <span>Mounjaro Natural:</span> Prepara en casa la receta que se
-                                    hizo viral en Tiktok
+                                    <span>TÓNICO CAPILAR:</span> ACTIVA EL CRECIMIENTO Y COMBATE LA
+                                    CAÍDA CON ESTA RECETA CASERA
                                 </h2>
                             </div>
                         </NavLink>
                     </div>
 
                     <div className="item">
-                        <NavLink to="/posts/post-1">
+                        <NavLink to="/posts/laxante-casero">
                             <div className="box-background-image">
-                                <img src={banner1} alt="" />
+                                <img src={laxanteCasero} alt="" />
                             </div>
 
                             <div className="box-content">
                                 <h2>
-                                    <span>Mounjaro Natural:</span> Prepara en casa la receta que se
-                                    hizo viral en Tiktok
+                                    <span>¿ESTREÑIMIENTO? ¡NUNCA MÁS!:</span> PRUEBA ESTE TRUCO CON
+                                    VINAGRE DE MANZANA Y ELIMINA HASTA 2 KILOS DE HECES ACUMULADAS
                                 </h2>
                             </div>
                         </NavLink>
                     </div>
 
                     <div className="item">
-                        <NavLink to="/posts/post-1">
+                        <NavLink to="/posts/laxante-casero">
                             <div className="box-background-image">
-                                <img src={banner1} alt="" />
+                                <img src={botoxCasero} alt="" />
                             </div>
 
                             <div className="box-content">
                                 <h2>
-                                    <span>Mounjaro Natural:</span> Prepara en casa la receta que se
-                                    hizo viral en Tiktok
-                                </h2>
-                            </div>
-                        </NavLink>
-                    </div>
-
-                    <div className="item">
-                        <NavLink to="/posts/post-1">
-                            <div className="box-background-image">
-                                <img src={banner1} alt="" />
-                            </div>
-
-                            <div className="box-content">
-                                <h2>
-                                    <span>Mounjaro Natural:</span> Prepara en casa la receta que se
-                                    hizo viral en Tiktok
+                                    <span>BOTOX CASERO:</span> SUAVIZA LAS LÍNEAS DE EXPRESIÓN CON
+                                    ESTA FÓRMULA NATURAL
                                 </h2>
                             </div>
                         </NavLink>
@@ -115,68 +109,61 @@ export const Home = () => {
 
                     <div className="owl-carousel category-carousel">
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/botox-casero">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={botoxCasero} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>BOTOX CASERO</h3>
+
+                                    <p>SUAVIZA LAS LÍNEAS DE EXPRESIÓN CON ESTA FÓRMULA NATURAL</p>
+                                </div>
+                            </NavLink>
+                        </div>
+
+                        <div className="item" data-merge="2">
+                            <NavLink className={`post-link`} to="/posts/skin-care-nocturno">
+                                <div className="post-link-image">
+                                    <img src={skinCareNocturno} alt="" />
+                                </div>
+
+                                <div className="post-link-content">
+                                    <h3>CUIDADO NOCTURNO DE LA PIEL</h3>
 
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
+                                        EL PASO A PASO CASERO QUE REGENERA LA PIEL MIENTRAS DUERMES
                                     </p>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/protocolo-anti-estrias">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={protocoloAntiEstrias} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>PROTOCOLO ANTIESTRÍAS</h3>
 
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
+                                    <p>RENUEVA TU PIEL CON ESTA MEZCLA PODEROSA</p>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/diabetes">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={diabetes} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>DIABETES</h3>
 
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
-                                </div>
-                            </NavLink>
-                        </div>
-
-                        <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
-                                <div className="post-link-image">
-                                    <img src={banner1} alt="" />
-                                </div>
-
-                                <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
+                                        EL TRUCO DE LA CANELA QUE AYUDA A REGULAR EL AZÚCAR EN
+                                        SANGRE
                                     </p>
                                 </div>
                             </NavLink>
@@ -189,143 +176,79 @@ export const Home = () => {
 
                     <div className="owl-carousel category-carousel">
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/diabetes">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={diabetes} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>DIABETES</h3>
 
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
+                                        EL TRUCO DE LA CANELA QUE AYUDA A REGULAR EL AZÚCAR EN
+                                        SANGRE
                                     </p>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/skin-care-nocturno">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={skinCareNocturno} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>CUIDADO NOCTURNO DE LA PIEL</h3>
 
                                     <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
+                                        EL PASO A PASO CASERO QUE REGENERA LA PIEL MIENTRAS DUERMES
                                     </p>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink
+                                className={`post-link`}
+                                to="/posts/mascarilla-casera-quita-puntos-negros"
+                            >
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={mascarillaCaseraQuitaPuntosNegros} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>¡MASCARILLA CASERA PARA ELIMINAR PUNTOS NEGROS!</h3>
 
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
+                                    <p>ELIMINA IMPUREZAS Y DEJA LA PIEL DE BEBÉ</p>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/mascarilla-facial-coreana">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={mascarilaFacialCoreana} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>MASCARILLA FACIAL COREANA</h3>
 
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
-                                </div>
-                            </NavLink>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="category">
-                    <h2>Aulas</h2>
-
-                    <div className="owl-carousel category-carousel">
-                        <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
-                                <div className="post-link-image">
-                                    <img src={banner1} alt="" />
-                                </div>
-
-                                <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
+                                    <p>LA RECETA PARA UNA PIEL DE PORCELANA</p>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
+                            <NavLink className={`post-link`} to="/posts/adios-canas">
                                 <div className="post-link-image">
-                                    <img src={banner1} alt="" />
+                                    <img src={adiosCanas} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
+                                    <h3>¡ADIÓS CANAS!</h3>
 
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
-                                </div>
-                            </NavLink>
-                        </div>
-
-                        <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
-                                <div className="post-link-image">
-                                    <img src={banner1} alt="" />
-                                </div>
-
-                                <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
-                                </div>
-                            </NavLink>
-                        </div>
-
-                        <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/post-1">
-                                <div className="post-link-image">
-                                    <img src={banner1} alt="" />
-                                </div>
-
-                                <div className="post-link-content">
-                                    <h3>Protocolo Antiestrías</h3>
-
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                                        voluptatibus officia architecto enim doloribus perspiciatis?
-                                    </p>
+                                    <p>CHAMPÚ NATURAL QUE CAMBIA EL COLOR DEL CABELLO</p>
                                 </div>
                             </NavLink>
                         </div>

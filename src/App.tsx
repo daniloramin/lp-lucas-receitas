@@ -18,6 +18,12 @@ import { CoctelParaVarices } from "./routes/Categories/AdelgazamientoYBienestar/
 import { TonicoCapilar } from "./routes/Categories/TratamientosCapilares/posts/TonicoCapilar";
 import { BanoAdelgazante } from "./routes/Categories/AdelgazamientoYBienestar/posts/BanoAdelgazante";
 import { MascarillaFacialCoreana } from "./routes/Categories/CuidadoDeLaPielBackground/posts/MascarillaFacialCoreana";
+import { BotoxCasero } from "./routes/Categories/CuidadoDeLaPielBackground/posts/BotoxCasero";
+import { SkinCareNocturno } from "./routes/Categories/CuidadoDeLaPielBackground/posts/SkinCareNocturno";
+import { MascarillaCaseraQuitaPuntosNegros } from "./routes/Categories/CuidadoDeLaPielBackground/posts/MascarillaCaseraQuitaPuntosNegros";
+import { AdiosCanas } from "./routes/Categories/TratamientosCapilares/posts/AdiosCanas";
+import { Diabetes } from "./routes/Categories/SaludyVitalidad/posts/Diabetes";
+import { LaxanteCasero } from "./routes/Categories/SaludyVitalidad/posts/LaxanteCasero";
 
 function App() {
     return (
@@ -46,17 +52,31 @@ function App() {
                     <Route path="clases" element={<Classes />} />
 
                     <Route path="posts">
+                        {/* Adelgazamiento y Bienestar */}
                         <Route path="mounjaro-natural" element={<MounjaroNatural />} />
                         <Route path="protocolo-anti-estrias" element={<ProtocoloAntiEstrias />} />
                         <Route path="coctel-para-varices" element={<CoctelParaVarices />} />
                         <Route path="bano-adelgazante" element={<BanoAdelgazante />} />
 
+                        {/* Cuidado de la Piel */}
                         <Route
                             path="mascarilla-facial-coreana"
                             element={<MascarillaFacialCoreana />}
                         />
+                        <Route path="botox-casero" element={<BotoxCasero />} />
+                        <Route path="skin-care-nocturno" element={<SkinCareNocturno />} />
+                        <Route
+                            path="mascarilla-casera-quita-puntos-negros"
+                            element={<MascarillaCaseraQuitaPuntosNegros />}
+                        />
 
+                        {/* Tratamientos Capilares */}
                         <Route path="tonico-capilar" element={<TonicoCapilar />} />
+                        <Route path="adios-canas" element={<AdiosCanas />} />
+
+                        {/* Salud y Vitalidad */}
+                        <Route path="diabetes" element={<Diabetes />} />
+                        <Route path="laxante-casero" element={<LaxanteCasero />} />
                     </Route>
                 </Route>
 

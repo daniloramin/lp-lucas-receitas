@@ -50,7 +50,8 @@
         margin-bottom: 1.8rem;
     }
 
-    ul {
+    ul,
+    ol {
         padding-left: 2rem;
         margin-bottom: 2.4rem;
 
@@ -88,5 +89,11 @@
                 }
             }
         }
+    }
+
+    ol li::marker {
+        color: var(--post-default-color);
+        font-size: 1.6rem;
+        font-weight: 600;
     }
 }

@@ -4,6 +4,8 @@ import { NavLink } from "react-router";
 import tratamientosCapilares from "../../../assets/images/categories-background/tratamientos-capilares-background.png";
 
 import tonicoCapilar from "../../../assets/images/posts-background/tonico-capilar.png";
+import adiosCanas from "../../../assets/images/posts-background/adios-canas.png";
+
 import { PostLink } from "../components/PostLink";
 
 export const TratamientosCapilaresLink = () => {
@@ -24,6 +26,14 @@ export const TratamientosCapilaresPosts = () => {
                     imgSrc={tonicoCapilar}
                     title={"TÓNICO CAPILAR"}
                     description={"ACTIVA EL CRECIMIENTO Y COMBATE LA CAÍDA CON ESTA RECETA CASERA"}
+                />
+            </NavLink>
+
+            <NavLink to="/posts/adios-canas" className="post-box">
+                <PostLink
+                    imgSrc={adiosCanas}
+                    title={"¡ADIÓS CANAS!"}
+                    description={"CHAMPÚ NATURAL QUE CAMBIA EL COLOR DEL CABELLO"}
                 />
             </NavLink>
         </div>

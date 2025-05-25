@@ -1,6 +1,12 @@
 import { Header } from "../../components/Header";
 import "./style.scss";
 
+import adelgazamientoYBienestar from "../../assets/images/categories-background/adelgazamiento-y-bienestar.png";
+import cuidadoDeLaPiel from "../../assets/images/categories-background/cuidado-de-la-piel.png";
+import tratamientosCapilares from "../../assets/images/categories-background/tratamientos-capilares-background.png";
+import saludYVitalidad from "../../assets/images/categories-background/salud-y-vitalidad-background.png";
+
+import mounjaroNatural from "../../assets/images/posts-background/mounjaro-natural.png";
 import tonicoCapilar from "../../assets/images/posts-background/tonico-capilar.png";
 import laxanteCasero from "../../assets/images/posts-background/laxante-casero.png";
 import botoxCasero from "../../assets/images/posts-background/botox-casero.png";
@@ -109,62 +115,55 @@ export const Home = () => {
 
                     <div className="owl-carousel category-carousel">
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/botox-casero">
+                            <NavLink
+                                className={`post-link`}
+                                to="/categorias/adelgazamiento-y-bienestar"
+                            >
                                 <div className="post-link-image">
-                                    <img src={botoxCasero} alt="" />
+                                    <img src={adelgazamientoYBienestar} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>BOTOX CASERO</h3>
-
-                                    <p>SUAVIZA LAS LÍNEAS DE EXPRESIÓN CON ESTA FÓRMULA NATURAL</p>
+                                    <h3>Adelgazamiento y Bienestar</h3>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/skin-care-nocturno">
+                            <NavLink className={`post-link`} to="/categorias/cuidado-de-la-piel">
                                 <div className="post-link-image">
-                                    <img src={skinCareNocturno} alt="" />
+                                    <img src={cuidadoDeLaPiel} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>CUIDADO NOCTURNO DE LA PIEL</h3>
-
-                                    <p>
-                                        EL PASO A PASO CASERO QUE REGENERA LA PIEL MIENTRAS DUERMES
-                                    </p>
+                                    <h3>Cuidado de la Piel</h3>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/protocolo-anti-estrias">
+                            <NavLink
+                                className={`post-link`}
+                                to="/categorias/tratamientos-capilares"
+                            >
                                 <div className="post-link-image">
-                                    <img src={protocoloAntiEstrias} alt="" />
+                                    <img src={tratamientosCapilares} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>PROTOCOLO ANTIESTRÍAS</h3>
-
-                                    <p>RENUEVA TU PIEL CON ESTA MEZCLA PODEROSA</p>
+                                    <h3>Tratamientos Capilares</h3>
                                 </div>
                             </NavLink>
                         </div>
 
                         <div className="item" data-merge="2">
-                            <NavLink className={`post-link`} to="/posts/diabetes">
+                            <NavLink className={`post-link`} to="/categorias/salud-y-vitalidad">
                                 <div className="post-link-image">
-                                    <img src={diabetes} alt="" />
+                                    <img src={saludYVitalidad} alt="" />
                                 </div>
 
                                 <div className="post-link-content">
-                                    <h3>DIABETES</h3>
-
-                                    <p>
-                                        EL TRUCO DE LA CANELA QUE AYUDA A REGULAR EL AZÚCAR EN
-                                        SANGRE
-                                    </p>
+                                    <h3>Salud y Vitalidad</h3>
                                 </div>
                             </NavLink>
                         </div>
@@ -175,6 +174,20 @@ export const Home = () => {
                     <h2>Recetas</h2>
 
                     <div className="owl-carousel category-carousel">
+                        <div className="item" data-merge="2">
+                            <NavLink className={`post-link`} to="/posts/mounjaro-natural">
+                                <div className="post-link-image">
+                                    <img src={mounjaroNatural} alt="" />
+                                </div>
+
+                                <div className="post-link-content">
+                                    <h3>MOUNJARO NATURAL</h3>
+
+                                    <p>PREPARA EN CASA LA RECETA QUE SE HIZO VIRAL EN TIK TOK</p>
+                                </div>
+                            </NavLink>
+                        </div>
+
                         <div className="item" data-merge="2">
                             <NavLink className={`post-link`} to="/posts/diabetes">
                                 <div className="post-link-image">

@@ -89,6 +89,9 @@
         .category-carousel {
             .post-link-image img {
                 border-radius: 1rem;
+                aspect-ratio: 180/125;
+                object-fit: cover;
+                object-position: center;
             }
 
             .post-link-content {
@@ -97,6 +100,7 @@
                     font-size: 2rem;
                     font-weight: 600;
                     color: var(--medium-blue-text);
+                    text-transform: uppercase;
                 }
 
                 p {
@@ -108,6 +112,7 @@
                     -webkit-box-orient: vertical;
                     overflow: hidden;
                     text-overflow: ellipsis;
+                    text-transform: uppercase;
                 }
             }
         }

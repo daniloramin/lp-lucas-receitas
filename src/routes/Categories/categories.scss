@@ -38,6 +38,11 @@
         margin-top: 4rem;
     }
 
-    .post-box {
+    .post-box-link {
+        img {
+            aspect-ratio: 180/125;
+            object-fit: cover;
+            object-position: center;
+        }
     }
 }

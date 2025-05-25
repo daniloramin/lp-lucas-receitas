@@ -27,6 +27,7 @@ import { LaxanteCasero } from "./routes/Categories/SaludyVitalidad/posts/Laxante
 
 function App() {
     return (
+        // <BrowserRouter basename="/lp-lucas-receitas">
         <BrowserRouter>
             <Routes>
                 <Route element={<Layout />}>

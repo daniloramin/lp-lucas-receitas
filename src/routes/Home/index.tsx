@@ -11,7 +11,6 @@ import tonicoCapilar from "../../assets/images/posts-background/tonico-capilar.p
 import laxanteCasero from "../../assets/images/posts-background/laxante-casero.png";
 import botoxCasero from "../../assets/images/posts-background/botox-casero.png";
 import skinCareNocturno from "../../assets/images/posts-background/skin-care-nocturno.png";
-import protocoloAntiEstrias from "../../assets/images/posts-background/protocolo-anti-estrias.png";
 import diabetes from "../../assets/images/posts-background/diabetes.png";
 import mascarillaCaseraQuitaPuntosNegros from "../../assets/images/posts-background/mascarilla-casera-quita-puntos-negros.png";
 import mascarilaFacialCoreana from "../../assets/images/posts-background/mascarilla-facial-coreana.png";

@@ -7,7 +7,6 @@ import tratamientosCapilares from "../../assets/images/categories-background/tra
 import saludYVitalidad from "../../assets/images/categories-background/salud-y-vitalidad-background.png";
 
 import mounjaroNatural from "../../assets/images/posts-background/mounjaro-natural.png";
-import tonicoCapilar from "../../assets/images/posts-background/tonico-capilar.png";
 import laxanteCasero from "../../assets/images/posts-background/laxante-casero.png";
 import botoxCasero from "../../assets/images/posts-background/botox-casero.png";
 import skinCareNocturno from "../../assets/images/posts-background/skin-care-nocturno.png";
@@ -64,15 +63,15 @@ export const Home = () => {
             <main id="home-content">
                 <div id="main-carousel" className="owl-carousel">
                     <div className="item">
-                        <NavLink to="/posts/tonico-capilar">
+                        <NavLink to="/posts/mounjaro-natural">
                             <div className="box-background-image">
-                                <img src={tonicoCapilar} alt="" />
+                                <img src={mounjaroNatural} alt="" />
                             </div>
 
                             <div className="box-content">
                                 <h2>
-                                    <span>TÓNICO CAPILAR:</span> ACTIVA EL CRECIMIENTO Y COMBATE LA
-                                    CAÍDA CON ESTA RECETA CASERA
+                                    <span>MOUNJARO NATURAL:</span> PREPARA EN CASA LA RECETA QUE SE
+                                    HIZO VIRAL EN TIK TOK
                                 </h2>
                             </div>
                         </NavLink>

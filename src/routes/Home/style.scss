@@ -25,6 +25,12 @@
                         rgba(0, 0, 0, 0.83) 100%
                     );
                 }
+
+                img {
+                    aspect-ratio: 490/340;
+                    object-fit: cover;
+                    object-position: center;
+                }
             }
 
             .box-content {

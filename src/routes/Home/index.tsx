@@ -168,11 +168,11 @@ export const Home = () => {
                     </div>
                 </div>
 
-                <div className="category">
+                <div className="category square-blocks-category">
                     <h2>Recetas</h2>
 
                     <div className="owl-carousel category-carousel">
-                        <div className="item" data-merge="2">
+                        <div className="item" data-merge="3">
                             <NavLink className={`post-link`} to="/posts/mounjaro-natural">
                                 <div className="post-link-image">
                                     <img src={mounjaroNatural} alt="" />
@@ -186,7 +186,7 @@ export const Home = () => {
                             </NavLink>
                         </div>
 
-                        <div className="item" data-merge="2">
+                        <div className="item" data-merge="3">
                             <NavLink className={`post-link`} to="/posts/diabetes">
                                 <div className="post-link-image">
                                     <img src={diabetes} alt="" />
@@ -203,7 +203,7 @@ export const Home = () => {
                             </NavLink>
                         </div>
 
-                        <div className="item" data-merge="2">
+                        <div className="item" data-merge="3">
                             <NavLink className={`post-link`} to="/posts/skin-care-nocturno">
                                 <div className="post-link-image">
                                     <img src={skinCareNocturno} alt="" />
@@ -219,7 +219,7 @@ export const Home = () => {
                             </NavLink>
                         </div>
 
-                        <div className="item" data-merge="2">
+                        <div className="item" data-merge="3">
                             <NavLink
                                 className={`post-link`}
                                 to="/posts/mascarilla-casera-quita-puntos-negros"
@@ -236,7 +236,7 @@ export const Home = () => {
                             </NavLink>
                         </div>
 
-                        <div className="item" data-merge="2">
+                        <div className="item" data-merge="3">
                             <NavLink className={`post-link`} to="/posts/mascarilla-facial-coreana">
                                 <div className="post-link-image">
                                     <img src={mascarilaFacialCoreana} alt="" />
@@ -250,7 +250,7 @@ export const Home = () => {
                             </NavLink>
                         </div>
 
-                        <div className="item" data-merge="2">
+                        <div className="item" data-merge="3">
                             <NavLink className={`post-link`} to="/posts/adios-canas">
                                 <div className="post-link-image">
                                     <img src={adiosCanas} alt="" />

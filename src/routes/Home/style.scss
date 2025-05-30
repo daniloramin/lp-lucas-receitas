@@ -107,6 +107,7 @@
                     font-weight: 600;
                     color: var(--medium-blue-text);
                     text-transform: uppercase;
+                    word-wrap: break-word;
                 }
 
                 p {
@@ -120,6 +121,15 @@
                     text-overflow: ellipsis;
                     text-transform: uppercase;
                 }
+            }
+        }
+    }
+
+    .square-blocks-category {
+        .category-carousel {
+            .post-link-image img {
+                aspect-ratio: 1/1;
+                border-radius: 2rem;
             }
         }
     }

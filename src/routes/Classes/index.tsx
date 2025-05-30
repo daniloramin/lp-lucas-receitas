@@ -8,93 +8,45 @@ export const Classes = () => {
 
             <div id="classes">
                 <iframe
-                    src="https://www.youtube.com/embed/JGoUEBGGvp0?si=3qoHWziXjBo-SRm3"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e3803e38bb4b0232e332/embed.html"
+                ></iframe>
+                <iframe
+                    allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e36fd021f4ff342fdc0d/embed.html"
+                ></iframe>
+                <iframe
+                    allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e357d021f4ff342fdbfd/embed.html"
+                ></iframe>
+                <iframe
+                    allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e374e552168ecd42ac37/embed.html"
+                ></iframe>
+                <iframe
+                    allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e3793e38bb4b0232e32b/embed.html"
                 ></iframe>
 
                 <iframe
-                    src="https://www.youtube.com/embed/Yoz4ix4Bse8?si=6q075vQ5l-sPHRYu"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e368d021f4ff342fdc07/embed.html"
                 ></iframe>
-
                 <iframe
-                    src="https://www.youtube.com/embed/80t8dv2NHAA?si=ddcTqGcUpDypPQeQ"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e34dd021f4ff342fdbf5/embed.html"
                 ></iframe>
-
                 <iframe
-                    src="https://www.youtube.com/embed/ao-D42JzV0E?si=Yxggcd3lb87vOGvQ"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e350e552168ecd42abfc/embed.html"
                 ></iframe>
-
                 <iframe
-                    src="https://www.youtube.com/embed/wB04LXbDrd0?si=Y-090_3DsnqgaFl8"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e35be009b7e9ab8e9219/embed.html"
                 ></iframe>
-
                 <iframe
-                    src="https://www.youtube.com/embed/AFbmk6tTaz4?si=buCo1mzEpTq_wufd"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
-                ></iframe>
-
-                <iframe
-                    src="https://www.youtube.com/embed/leKc-meBmnQ?si=k4LIOElpZmejz_5b"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                ></iframe>
-
-                <iframe
-                    src="https://www.youtube.com/embed/8LKkFTVetlU?si=0rRewAamAlDZ88ML"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                ></iframe>
-
-                <iframe
-                    src="https://www.youtube.com/embed/rKbWdMZNhco?si=TiDldh6XKodWUMgN"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
-                ></iframe>
-
-                <iframe
-                    src="https://www.youtube.com/embed/elpUmx0HMeQ?si=ziZZGkKGhd1SQkpn"
-                    title="YouTube video player"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerPolicy="strict-origin-when-cross-origin"
-                    allowFullScreen
+                    src="https://scripts.converteai.net/ef400725-2503-4d96-b032-cbc4396feede/players/6838e36270a835c57ba959a3/embed.html"
                 ></iframe>
             </div>
         </div>

@@ -93,7 +93,7 @@ export const Home = () => {
                     </div>
 
                     <div className="item">
-                        <NavLink to="/posts/laxante-casero">
+                        <NavLink to="/posts/botox-casero">
                             <div className="box-background-image">
                                 <img src={botoxCasero} alt="" />
                             </div>

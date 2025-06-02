@@ -31,7 +31,7 @@ export const Login = () => {
 
                 <form action="" onSubmit={handleSubmit}>
                     <input
-                        type="email"
+                        type="text"
                         placeholder="Nombre de Usuario"
                         // onChange={(e) => setUsername(e.target.value)}
                     />
